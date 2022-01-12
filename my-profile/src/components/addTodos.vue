@@ -8,7 +8,8 @@
 </template>
 
 <script setup>
-function addTodo() {
+const addTodo = () => {
   
 }
+
 </script>
