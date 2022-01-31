@@ -7,29 +7,10 @@
         <link href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css" rel="stylesheet">
         <link href="https://fonts.xz.style/serve/inter.css" rel="stylesheet">
         <link href="https://newcss.net/theme/terminal.css" rel="stylesheet">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <div class="tab-area">
-            <input type="radio" name="tab_name" id="tab1" checked>
-            <label class="tab-class" for="tab1">Home</label>
-            <div class="content-class">
-                <p>ここはHomeです。</p>
-            </div>
-            <input type="radio" name="tab_name" id="tab2">
-            <label class="tab-class" for="tab2">Profile</label>
-            <div class="content-class">
-                <p>自己紹介です。</p>
-                <div>
-                    <img src="img/oresikasquare.png" alt="My image">
-                </div>
-            </div>
-            <input type="radio" name="tab_name" id="tab3">
-            <label class="tab-class" for="tab3">Photo</label>
-            <div class="content-class">
-                <p>撮った写真たちです。</p>
-            </div>
-            </div>
-        </div>
+        <div id="app"></div>
+        <script type="module" src="/src/main.js"></script>
     </body>
 </html>
