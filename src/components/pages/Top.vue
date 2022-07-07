@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <router-view></router-view>
+  <div>
+    Hello Vite
+  </div>
 </template>
-
-<style>
-
-</style>
