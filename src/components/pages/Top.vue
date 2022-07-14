@@ -4,6 +4,6 @@
 
 <template>
   <div>
-    aaaaaaaa
+    aaaa
   </div>
 </template>
